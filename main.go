@@ -15,6 +15,14 @@ import (
 )
 
 func main(){
+
+	red := color.New(color.FgWhite).Add(color.BgRed).SprintFunc()
+
+	if len(os.Args) < 2{
+		fmt.Println(red("Modhammer needs a minium of one parameter"))	
+		os.Exit(1)
+	}
+
 	if os.Args[1] == "--setup"{
 		setup()
 	}else{
