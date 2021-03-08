@@ -12,6 +12,22 @@ If you alredy has [Golang](https://golang.org/) installed in your machine, run:
 go install github.com/edersonferreira/modhammer
 ```
 
+## AUR
+
+ModHammer can be installed using AUR, with the package `modhammer-edersonferreira-git`, like:
+
+### Yay
+
+```
+yay -S modhammer-edersonferreira-git
+```
+
+### Paru
+
+```
+paru modhammer-edersonferreira-git
+```
+
 ## Without Golang
 
 If you don't have [Golang](https://golang.org/) installed in your machine, do these commands:
