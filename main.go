@@ -20,7 +20,7 @@ func main(){
 
 	if len(os.Args) < 2{
 		fmt.Println(red("Modhammer needs a minium of one parameter"))	
-		os.Exit(1)
+		os.Exit(0)
 	}
 
 	if os.Args[1] == "--setup"{
@@ -80,7 +80,7 @@ func run() {
 	err = godotenv.Load(configPath)
 	if err != nil {
 		fmt.Println(red("Config file doesn't exist. Create this file using modhammer --setup"))
-		os.Exit(1)
+		os.Exit(0)
 	}
 
 	message := ""
