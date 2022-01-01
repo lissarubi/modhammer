@@ -115,7 +115,7 @@ func run() {
 	})
 
 	// join channels
-	client.Join(modChannels...)
+	client.Join(modChannels)
 
 	err = client.Connect()
 	if err != nil {
