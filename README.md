@@ -9,7 +9,7 @@ Mod hammer do a same action in a list of Twitch channels. This program is very u
 If you alredy has [Golang](https://golang.org/) installed in your machine, run:
 
 ```
-go install github.com/edersonferreira/modhammer
+go install github.com/lissaferreira/modhammer
 ```
 
 ## Without Golang
@@ -17,7 +17,7 @@ go install github.com/edersonferreira/modhammer
 If you don't have [Golang](https://golang.org/) installed in your machine, do these commands:
 
 ```
-git clone https://github.com/edersonferreira/modhammer
+git clone https://github.com/lissaferreira/modhammer
 cd modhammer
 sudo cp bin/modhammer /usr/bin/modhammer
 ```
